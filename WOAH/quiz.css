@@ -1,0 +1,116 @@
+.active_button{
+  background-color: #6581dd;
+  color: #e495c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+  min-height: 100vh;
+  background-color:#244A9A;
+  margin: 2em;
+}
+
+main {
+  flex: 1;  /* makes the <main> grow (we want it to grow so that it pushes <footer> to the bottom of page)*/
+}
+
+h1 {
+  font-style: italic;
+  color: #e495c4;
+}
+
+h2 {
+  margin-top: 2em; 
+  font-style: italic;
+  color: #e495c4;
+}
+
+h3 {
+  margin-top: 2em; 
+  font-style: italic;
+  color: #e495c4;
+  font-size:20px
+}
+
+
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content:space-evenly;
+  text-align:center;
+}
+  
+.answer-choice img {
+  height: 10em;
+}
+
+button{
+  background-color:#61b864;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: .01s;
+}
+
+/* nav work */
+.topnav {
+  background-color: #244A9A;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e495c4;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #61b864;
+  color: white;
+}
+
+.submit-btn {
+  background-color:#e495c4;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: .01s;
+}
+
+/* img{
+  object-fit: cover;
+} */
+/* 
+  1. #e495c4 - pink
+  2. #ea5e4e - red 
+  3. #f0c44e - yellow
+  4. #6581dd - light blue
+  5. #61b864 - green 
+  6. #e87d30 - orange  */

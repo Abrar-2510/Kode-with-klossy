@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<!-- this scales the content to display nicely on mobiles/tablets -->
+	<meta name="viewport" content="width=device-width">
+
+	<title>Project Demo - Home</title>
+
+	<!-- Bootstrap and FontAwesome cdn links -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	 crossorigin="anonymous">
+	<!-- our custom styles -->
+	<link rel="stylesheet" href="quiz.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  <!-- src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" -->
+	</script>
+
+
+	<nav>
+		<div class="topnav">
+			<a href="index.html">Home</a>
+			<a href="sameera.html">Sameera Mousa</a>
+			<a href="katherine.html">Katherine Johnson</a>
+			<a href="lalla.html">Lalla Fatma N'soumer</a>
+			<a href="sabihagökçen.html">Sabiha Gökçen</a>
+			<a href="moreresources.html">More Resources</a>
+			<a class="active" href="#about">Quiz</a>
+		</div>
+	</nav>
+</head>
+
+<body>
+	<h1><a>
+			<center>Which famous woman in STEM should you look into?</center>
+		</a></h1>
+
+	<h2>Area that interests you most?</h2>
+	<div class="question">
+		<div class="answer-choice">
+			<img src="https://library.wustl.edu/wp-content/uploads/2016/01/astrophysics.jpg" width="200">
+        <br>
+        <button id="q1a1">Astrophysics</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://community.arm.com/cfs-file/__key/communityserver-blogs-components-weblogfiles/00-00-00-19-89/Semiconductor-chip-1600x900.jpg" width="200">
+        <br>
+        <button id="q1a2">Computer Science</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.vox-cdn.com/thumbor/zW1hvL4OAzAtZ9eB7j4ccWBTa5A=/0x0:5215x3477/1200x800/filters:focal(1627x1242:2461x2076)/cdn.vox-cdn.com/uploads/chorus_image/image/64008539/GettyImages_1149977647.0.jpg" width="200">
+        <br>
+        <button id="q1a3">Activism</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://th.bing.com/th/id/R8e719f8c7b978e835a0a800581352790?rik=HAE2voHow4O6uw&riu=http%3a%2f%2fpeople-equation.com%2fwp-content%2fuploads%2fmath-equation_chalkboard.jpg&ehk=vEJTMi9dMj427HFQ9784%2frq%2fSIw1P8v%2bBPsiKYRyCxk%3d&risl=&pid=ImgRaw" wdith="200">
+        <br>
+        <button id="q1a4">Maths</button>
+      </div>
+    </div> 
+    
+    <h2>What is your favourite colour?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://roshanphilip.files.wordpress.com/2013/10/red.jpg" width="200">
+        <br>
+        <button id="q2a1">Red</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://weneedfun.com/wp-content/uploads/2016/08/The-Color-Grey-16.jpg" width="200">
+        <br>
+        <button id="q2a2">Grey</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B800%2C500%5D&w=1600&h=838&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2017%2F05%2Fblue0517.jpg" width="200">
+        <br>
+        <button id="q2a3">Blue</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://dhggywfvre0o8.cloudfront.net/app/uploads/2017/11/22153252/Typeform-Blog-BlackFriday-Cover-AskAwesomely.jpg" width="200">
+        <br>
+        <button id="q2a4">Black</button>
+      </div>
+    </div> 
+    
+    <h2>What do you do in your free time?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="http://i.huffpost.com/gen/1141482/images/o-UNHAPPY-JOB-facebook.jpg" width="200">
+        <br>
+        <button id="q3a1">You don't have any free time</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://miro.medium.com/max/12032/0*__5nhm_2qHSrTVoZ" width="200">
+        <br>
+        <button id="q3a2">Code!</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://th.bing.com/th/id/OIP.nXKqL6pp4_uHlxIDhLQtgQHaIb?pid=ImgDet&rs=1" width="200">
+        <br>
+        <button id="q3a3">Build robots</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://th.bing.com/th/id/OIP.-b0mS-q3zE0JVPpA1WA2VAHaEO?pid=ImgDet&rs=1" width="200">
+        <br>
+        <button id="q3a4">Play sports</button>
+      </div>
+    </div> 
+    
+        <h2>What is your dream job?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Programmer_writing_code_with_Unit_Tests.jpg/1200px-Programmer_writing_code_with_Unit_Tests.jpg" width="200">
+        <br>
+        <button id="q4a1">Software Engineer</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://th.bing.com/th/id/OIP.cA-2LIBD3hsEUbVDhlBQYgHaE8?pid=ImgDet&rs=1" width="200">
+        <br>
+        <button id="q4a2">Mathematician</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://th.bing.com/th/id/OIP.k4O_raV_SrZ-9CkEJPPjbQHaLI?pid=ImgDet&rs=1" width="200">
+        <br>
+        <button id="q4a3">Astronaut</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://th.bing.com/th/id/R8177cf1a700447140ef26ef0549278bf?rik=Y%2bK6kl2eV0cKQA&riu=http%3a%2f%2forigins.osu.edu%2fsites%2forigins.osu.edu%2ffiles%2f11+Alfre-Woodard-as-President-Constance-Payton-on-State-of-Affairs.jpg&ehk=dlTf5j%2bp%2ffwzcfUuQCl%2fDc9WLK06d36TiwtJZM2mwfg%3d&risl=&pid=ImgRaw" width="200">
+        <br>
+        <button id="q4a4">President</button>
+      </div>
+    </div> 
+
+    
+     <div class="result">
+       <center>
+         <br>
+         <br>
+         <input class = "submit-btn" type = "submit">
+         <br>
+         <br>
+           <h3 id="result"></h3>
+           <h3 id="image"> </h3>
+       </center>
+      </div>
+    <script src="script.js"></script>
+  
+  
+  </body>
+
+</html>
