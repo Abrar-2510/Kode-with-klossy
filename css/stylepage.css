@@ -191,11 +191,14 @@ img{
 
 /* nav work */
 .topnav {
-  background-color: #243e9a;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  font-family: "futura";
+     display: flex;
+    background-color: #243e9a;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    font-family: "futura";
+    width: 100%;
+    justify-content: space-around;
 }
 
 /* Style the links inside the navigation bar */
@@ -205,7 +208,7 @@ img{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 /* Change the color of links on hover */
