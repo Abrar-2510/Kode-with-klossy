@@ -1,6 +1,7 @@
 # kode with klossy
 
 This repo is for the kode with klossy summer program  
+
 : aims to make creative web projects in a team work and each group has their mentor. 
 
 -------
